@@ -1,0 +1,16 @@
+{
+  "name": "selective_process",
+  "version": "1.0.0",
+  "description": "This repository was created as part of my selection process, where I present my work and technical skills. Here you will find details about the source code, previous projects and relevant contributions that demonstrate my experience and passion for software development.",
+  "main": "index.js",
+  "scripts": {
+    "cy:open":"cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hussein QA",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3"
+  }
+}
