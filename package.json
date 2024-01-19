@@ -4,13 +4,20 @@
   "description": "This repository was created as part of my selection process, where I present my work and technical skills. Here you will find details about the source code, previous projects and relevant contributions that demonstrate my experience and passion for software development.",
   "main": "index.js",
   "scripts": {
-    "cy:open":"cypress open",
+    "cy:open": "cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Hussein QA",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.6.3"
+    "cypress": "^13.6.3",
+    "cypress-mailosaur": "^2.14.0"
+  },
+  "env": {
+    "MAILSOAUR_API_KEY": "VITrdfEeuqlNbPyMoSam56LqPcUXdd1d"
+  },
+  "dependencies": {
+    "cypress-mailslurp": "^1.9.0"
   }
 }
